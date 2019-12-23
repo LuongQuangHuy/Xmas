@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BaiTapGiangSinh" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="XmasShock" translatesAutoresizingMaskIntoConstraints="NO" id="B0a-zm-lXx">
+                                <rect key="frame" x="200" y="776" width="82" height="82"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="4IE-eq-WJj"/>
+                                    <constraint firstAttribute="width" constant="82" id="UOB-MY-7tf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="XmasToys" translatesAutoresizingMaskIntoConstraints="NO" id="56T-m8-fMR">
+                                <rect key="frame" x="110" y="776" width="82" height="82"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="82" id="E1w-5d-5gE"/>
+                                    <constraint firstAttribute="height" constant="82" id="yaS-I5-HMx"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJj-kz-odP">
+                                <rect key="frame" x="13" y="721" width="388" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.76679889896373066" green="0.0" blue="0.050419407610547758" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="XmasBall1" translatesAutoresizingMaskIntoConstraints="NO" id="Lok-bw-shp">
+                                <rect key="frame" x="20" y="776" width="82" height="82"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="WdU-jy-8W1"/>
+                                    <constraint firstAttribute="width" constant="82" id="duS-WH-RqZ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="XmasBell" translatesAutoresizingMaskIntoConstraints="NO" id="Cer-Rq-1GZ">
+                                <rect key="frame" x="290" y="776" width="82" height="82"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="82" id="ieo-T5-nGJ"/>
+                                    <constraint firstAttribute="height" constant="82" id="q1L-O3-HK2"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="XmasTree1" translatesAutoresizingMaskIntoConstraints="NO" id="i3Z-B1-BVU">
+                                <rect key="frame" x="0.0" y="44" width="414" height="669"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="i3Z-B1-BVU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9Im-Si-1fE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gJj-kz-odP" secondAttribute="trailing" constant="13" id="9xx-29-uZV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="i3Z-B1-BVU" secondAttribute="bottom" constant="149" id="Ecf-Zh-5dB"/>
+                            <constraint firstItem="i3Z-B1-BVU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="J2Z-ad-Zg2"/>
+                            <constraint firstItem="Lok-bw-shp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="MVg-da-X1o"/>
+                            <constraint firstItem="i3Z-B1-BVU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OZS-0B-Ctd"/>
+                            <constraint firstItem="gJj-kz-odP" firstAttribute="top" secondItem="i3Z-B1-BVU" secondAttribute="bottom" constant="8" id="UYC-de-38g"/>
+                            <constraint firstItem="gJj-kz-odP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="13" id="V4b-5b-RBR"/>
+                            <constraint firstItem="56T-m8-fMR" firstAttribute="leading" secondItem="Lok-bw-shp" secondAttribute="trailing" constant="8" id="XGf-E4-cNg"/>
+                            <constraint firstItem="Cer-Rq-1GZ" firstAttribute="leading" secondItem="B0a-zm-lXx" secondAttribute="trailing" constant="8" id="arb-8a-ozD"/>
+                            <constraint firstItem="B0a-zm-lXx" firstAttribute="top" secondItem="gJj-kz-odP" secondAttribute="bottom" constant="34.5" id="c3e-Tf-dEq"/>
+                            <constraint firstItem="56T-m8-fMR" firstAttribute="top" secondItem="gJj-kz-odP" secondAttribute="bottom" constant="34.5" id="etF-4h-csU"/>
+                            <constraint firstItem="Cer-Rq-1GZ" firstAttribute="top" secondItem="gJj-kz-odP" secondAttribute="bottom" constant="34.5" id="qLX-2v-qIQ"/>
+                            <constraint firstItem="Lok-bw-shp" firstAttribute="top" secondItem="gJj-kz-odP" secondAttribute="bottom" constant="34.5" id="u33-5t-kvK"/>
+                            <constraint firstItem="B0a-zm-lXx" firstAttribute="leading" secondItem="56T-m8-fMR" secondAttribute="trailing" constant="8" id="vhT-FJ-ZzU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="gJj-kz-odP" id="Fne-2A-wIT"/>
+                        <outlet property="xmasBall" destination="Lok-bw-shp" id="xQE-OF-sRS"/>
+                        <outlet property="xmasBell" destination="Cer-Rq-1GZ" id="AxU-Rv-yYJ"/>
+                        <outlet property="xmasShock" destination="B0a-zm-lXx" id="0Af-95-WYR"/>
+                        <outlet property="xmasToys" destination="56T-m8-fMR" id="y5V-7a-sZC"/>
+                        <outlet property="xmasTree" destination="i3Z-B1-BVU" id="Vqb-Bu-Ms7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="XmasBall1" width="225" height="225"/>
+        <image name="XmasBell" width="299" height="168"/>
+        <image name="XmasShock" width="180" height="280"/>
+        <image name="XmasToys" width="225" height="225"/>
+        <image name="XmasTree1" width="396" height="600"/>
+    </resources>
+</document>
