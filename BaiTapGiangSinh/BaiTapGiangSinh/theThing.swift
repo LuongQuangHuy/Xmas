@@ -9,7 +9,6 @@
 import UIKit
 
 class theThing: UIImageView {
-    var currentImage: UIImage?
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.contentMode = .scaleToFill

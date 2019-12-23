@@ -69,7 +69,7 @@ class ViewController: UIViewController {
         let size: CGSize = CGSize(width: width, height: height)
         let currentThing: theThing = {
             let currentThing = theThing(frame: CGRect(origin: location, size: size))
-            currentThing.currentImage = UIImage(named: selectedImage)
+            currentThing.image = UIImage(named: selectedImage)
             return currentThing
         }()
         xmasTree.addSubview(currentThing)
